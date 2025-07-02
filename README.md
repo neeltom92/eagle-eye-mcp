@@ -145,7 +145,11 @@ To use these MCP servers you need access to Cursor IDE, and configure the `mcp.j
 
 ## Demo
 
-To check why a Kubernetes pod is crashing, you can ask Cursor like below as shown in snapshot(for k8s MCP to work need VPN access and also switch to the corresponding cluster using kubectx.)
+To check why a Kubernetes pod is crashing, you can ask Cursor (make sure to switch to the correct cluster using kubectx), and to investigate a Datadog alert, you can use Eagle-eye.
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/af62b754-5caf-4867-a20f-ff5b5f8f5ce1" />
+<img width="699" alt="image" src="https://github.com/user-attachments/assets/fa6f4415-0d82-4aaf-94d3-3b222116ea8c" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/f68810cd-e203-4a59-83ea-127fb686ca24" />
+
 
 
 ## Roadmap

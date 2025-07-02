@@ -67,7 +67,6 @@ To use these MCP servers you need access to Cursor IDE, and configure the `mcp.j
 3. Click on `Add a global MCP`.
 4. Paste the JSON configuration below, making the necessary updates for PagerDuty and Datadog credentials.
 
-![image](https://github.com/user-attachments/assets/47cda3d4-b6ee-43d5-99a1-90f65df3699c)
 
 
 **Important: Three changes need to be made in the JSON below:**
@@ -78,9 +77,7 @@ To use these MCP servers you need access to Cursor IDE, and configure the `mcp.j
 
 * Replace `PAGERDUTY_USER_TOKEN` with your own personal token. Since this token varies with permission, the MCP behavior will be different. You can find it in PagerDuty by clicking My Profile --> User Settings --> Create API User Token
 
-<img width="806" alt="image" src="https://github.com/user-attachments/assets/7a45b9e8-b048-40f1-bf7f-86faf6461744" />
 
-![image](https://github.com/user-attachments/assets/8a6315b2-e9a0-43c9-96d0-38a0fef619a2)
 
 ```json
 {

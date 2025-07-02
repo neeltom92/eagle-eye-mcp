@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/09e28089-574d-43f1-b0e9-82e823f8ed3d)
+
 
 
 ## Eagle-Eye: the 'On-Call & Observability MCP Server'

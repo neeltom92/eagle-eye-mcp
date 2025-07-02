@@ -1,5 +1,4 @@
-![Eagle Eye](https://e1.pxfuel.com/desktop-wallpaper/905/314/desktop-wallpaper-1125x2436-eagle-eye-iphone-xs-iphone-10-iphone-x-backgrounds-and-eagle-iphone-thumbnail.jpg)
-
+![Piercing Eagle Gaze](https://images.stockcake.com/public/7/b/8/7b8e22e2-7276-4db1-8663-518292dd57f8_medium/piercing-eagle-gaze-stockcake.jpg)
 
 ## Eagle-Eye: the 'On-Call & Observability MCP Server'
 

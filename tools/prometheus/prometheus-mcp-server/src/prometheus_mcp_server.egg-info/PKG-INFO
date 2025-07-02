@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: prometheus_mcp_server
+Version: 1.0.0
+Summary: MCP server for Prometheus integration
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: mcp[cli]
+Requires-Dist: prometheus-api-client
+Requires-Dist: python-dotenv
+Requires-Dist: pyproject-toml>=0.1.0
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: pytest-mock>=3.10.0; extra == "dev"

@@ -1,0 +1,24 @@
+[project]
+name = "eagle-eye"
+version = "0.1.0"
+description = "An NSO observability tool."
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["pagerduty", "mcp", "llm", "api", "server"]
+dependencies = [
+    "kubernetes>=32.0.1",
+    "mcp[cli]>=1.9.1",
+    "pytest>=8.3.5",
+    "pyyaml>=6.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.9",
+]
+
+[tool.ruff.lint]
+select = [
+    # isort
+    "I",
+]

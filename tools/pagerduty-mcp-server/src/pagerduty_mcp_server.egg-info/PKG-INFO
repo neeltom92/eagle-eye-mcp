@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: pagerduty_mcp_server
+Version: 2.2.0
+Summary: MCP server for LLM agents to interact with PagerDuty SaaS
+Author-email: Will Pfleger <wpfleger@block.xyz>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/wpfleger96/pagerduty-mcp-server
+Project-URL: Repository, https://github.com/wpfleger96/pagerduty-mcp-server.git
+Project-URL: Documentation, https://github.com/wpfleger96/pagerduty-mcp-server#readme
+Project-URL: Bug Tracker, https://github.com/wpfleger96/pagerduty-mcp-server/issues
+Project-URL: Changelog, https://github.com/wpfleger96/pagerduty-mcp-server/blob/main/CHANGELOG.md
+Keywords: pagerduty,mcp,llm,api,server
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: mcp>=1.3.0
+Requires-Dist: pagerduty>=1.0.0
+Requires-Dist: pytest>=8.3.5
+Requires-Dist: ruff>=0.11.2

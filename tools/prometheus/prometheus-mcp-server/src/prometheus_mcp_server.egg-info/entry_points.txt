@@ -1,0 +1,2 @@
+[console_scripts]
+prometheus-mcp-server = prometheus_mcp_server.main:run_server

@@ -1,0 +1,2 @@
+[console_scripts]
+datadog-mcp-server = datadog_mcp_server.main:run_server

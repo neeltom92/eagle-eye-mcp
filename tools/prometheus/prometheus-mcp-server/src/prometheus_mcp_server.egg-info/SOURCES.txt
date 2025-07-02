@@ -1,0 +1,10 @@
+pyproject.toml
+src/prometheus_mcp_server/__init__.py
+src/prometheus_mcp_server/main.py
+src/prometheus_mcp_server/server.py
+src/prometheus_mcp_server.egg-info/PKG-INFO
+src/prometheus_mcp_server.egg-info/SOURCES.txt
+src/prometheus_mcp_server.egg-info/dependency_links.txt
+src/prometheus_mcp_server.egg-info/entry_points.txt
+src/prometheus_mcp_server.egg-info/requires.txt
+src/prometheus_mcp_server.egg-info/top_level.txt

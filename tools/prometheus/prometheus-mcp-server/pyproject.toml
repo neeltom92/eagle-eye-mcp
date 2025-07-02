@@ -1,0 +1,54 @@
+[project]
+name = "prometheus_mcp_server"
+version = "1.0.0"
+description = "MCP server for Prometheus integration"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]",
+    "prometheus-api-client",
+    "python-dotenv",
+    "pyproject-toml>=0.1.0",
+    "requests",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-mock>=3.10.0",
+]
+
+[project.scripts]
+prometheus-mcp-server = "prometheus_mcp_server.main:run_server"
+
+[tool.setuptools]
+packages = ["prometheus_mcp_server"]
+package-dir = {"" = "src"}
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_functions = "test_*"
+python_classes = "Test*"
+addopts = "--cov=src --cov-report=term-missing"
+
+[tool.coverage.run]
+source = ["src/prometheus_mcp_server"]
+omit = ["*/__pycache__/*", "*/tests/*", "*/.venv/*", "*/venv/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "pass",
+    "raise ImportError"
+]
